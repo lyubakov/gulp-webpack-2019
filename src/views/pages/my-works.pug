@@ -4,6 +4,9 @@ extends ../main.layout.pug
 block variables
     - var title = 'Мои работы'
 
+block styles
+    link(rel="stylesheet", type="text/css", href="/assets/styles/works.min.css")
+
 block content
     h1 "Мои работы"
     include ../common/slider.pug
